@@ -20,9 +20,8 @@
 # variable: ${{github.VARIABLE_NAME}}
 
 name: Github Action
-on:
-  push:
-    branches: [master]
+on: push
+    
 jobs:
   build:
     runs-on: ubuntu-latest
