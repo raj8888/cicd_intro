@@ -35,3 +35,5 @@ jobs:
         run: node --version
       - name: Pring pwd
         run: pwd
+      - name: Run eslint
+        run: npx exlint
