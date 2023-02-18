@@ -20,7 +20,8 @@
 # variable: ${{github.VARIABLE_NAME}}
 
 name: Github Action
-on: push
+on: 
+  push: [master]
     
 jobs:
   build:
