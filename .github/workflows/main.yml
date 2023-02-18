@@ -29,3 +29,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Print Hello World
         run: node --version
+      - name: Pring NPM version
+        run: node --version
+      - name: Pring pwd
+        run: pwd
