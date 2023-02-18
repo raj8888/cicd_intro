@@ -1,1 +1,31 @@
 #workflow
+# title: Website Name
+# description: A website for uploading content
+
+# #array
+# tags: 
+#   - technology
+#   - images
+#   - creative
+
+# #objects
+# address:
+#   street: MG ROAD
+#   city: Banglore
+#   state: KA
+
+# #github actions
+# #env variables
+# value: ${{env.VALUE}}
+# variable: ${{github.VARIABLE_NAME}}
+
+name: Github Action
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello world"
